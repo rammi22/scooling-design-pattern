@@ -4,7 +4,7 @@ $interfaceSpielbrett = 'Patterns/CreationalPatterns/AbstractFactoryPattern/Abstr
 $interfaceSpielfigur = 'Patterns/CreationalPatterns/AbstractFactoryPattern/AbstractProduct/Interfaces/Spielfigur.php';
 $luxusSchachbrett = 'Patterns/CreationalPatterns/AbstractFactoryPattern/ConcreteProduct/LuxusSchachbrett.php';
 $luxusSchachfigur = 'Patterns/CreationalPatterns/AbstractFactoryPattern/ConcreteProduct/LuxusSchachspielfigur.php';
-$luxusSchachfabrik = 'Patterns/CreationalPatterns/AbstractFactoryPattern/ConcreteProduct/LuxusSchachbrett.php';
+$luxusSchachfabrik = 'Patterns/CreationalPatterns/AbstractFactoryPattern/ConcreteFactory/LuxusSchachspielFabrik.php';
 ?>
 <h1>Abstract Factory Pattern</h1>
 <h2>Definition des <em>Entwurfmuster AbstractFactory</em></h2>
@@ -14,7 +14,7 @@ $luxusSchachfabrik = 'Patterns/CreationalPatterns/AbstractFactoryPattern/Concret
     mit diesem Entwurfmuster erzeugt werden.<br>
     Dafür stellt das <em>AbstractFactory Pattern</em> eine Schnittstelle bereit, ohne die Bennenung der konkreten
     Klassen einer Objektfamilie.<br><br>
-    Zum AbstractFactory Pattern gehören als Mitglieder (Member, Akteure) die <strong>AbstractFactory</strong>,
+    Zum AbstractFactory Pattern gehören Mitglieder (Member, Akteure), die <strong>AbstractFactory</strong>,
     die <strong>ConcreteFactory</strong>, das <strong>AbstractProduct</strong>, das <strong>ConcreteProduct</strong>
     und der <strong>Client</strong>.<br>
     Der <em>Client</em> aus der Mitgliedergruppe ist in unserem <a href="#example">Beispiel</a> der
@@ -277,8 +277,8 @@ $luxusSchachfabrik = 'Patterns/CreationalPatterns/AbstractFactoryPattern/Concret
             </footer>
         </div>
     </blockquote>
-    <p id="luxusSchachFabrik">
-        <h3>Class LuxusSchachfabrik</h3>
+    <p id="luxusSchachfabrik">
+        <h3>Class LuxusSchachspielFabrik</h3>
         <code>
                 <span>
                     <i class="path-to-class">
