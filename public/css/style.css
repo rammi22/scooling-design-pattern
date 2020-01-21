@@ -1,0 +1,77 @@
+* {
+    font-family: Arial;
+    font-size: 16px;
+}
+article {
+    line-height: 24px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid silver;
+}
+section {
+    margin-bottom: 30px;
+}
+code {
+    display: block;
+    overflow: auto;
+    margin: 5px 0;
+}
+code > span {
+    display: inline-block;
+    padding: 10px;
+    background: #ddd;
+    font-size: 14px;
+    border-radius: 10px;
+}
+code > span > i.path-to-class {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+}
+pre {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px;
+    background: #ddd;
+    border-radius: 10px;
+}
+nav.main li {
+    margin-bottom: 10px;
+}
+blockquote {
+    display: block;
+    margin: 0;
+}
+blockquote > div {
+    display: inline-block;
+    overflow: auto;
+    border: solid 1px #acacac;
+    padding: 20px;
+    font-family: "Courier New";
+    background:
+            #e1e1704f;
+}
+
+blockquote > div::before {
+    content: "\"";
+    display: inline-block;
+    font-size: 48px;
+    color: #666;
+}
+blockquote > div > footer > a {
+    font-size: 12px;
+}
+i.path-to-class {
+    font-size: 12px;
+}
+.block {
+    display: block;
+}
+a.block {
+    margin-bottom: 10px;
+}
