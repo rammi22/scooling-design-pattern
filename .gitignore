@@ -1,2 +1,4 @@
 /.idea
 /public/creational-patterns
+/vendor
+/composer.lock
